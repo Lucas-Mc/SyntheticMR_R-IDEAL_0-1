@@ -2,7 +2,13 @@
 env38/
 
 # Anonymized data which is available on Figshare: 10.6084/m9.figshare.26835715
-data_anonymized/
+data_anonymized/*/raw/*
+!data_anonymized/*/raw/.gitkeep
+data_anonymized/*/SYMAPS/*
+!data_anonymized/*/SYMAPS/.gitkeep
+data_anonymized/*/T2W/*
+!data_anonymized/*/T2W/.gitkeep
+data_anonymized/*/rt_structs.seg.nrrd
 
 # Random cached files
 __pycache__/
